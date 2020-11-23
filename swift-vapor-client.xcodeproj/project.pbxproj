@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEEA34642541ECC4000CC127 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEEA34632541ECC4000CC127 /* README.md */; };
 		DEEEACCD253DFE290072D078 /* swift_vapor_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEACCC253DFE290072D078 /* swift_vapor_clientApp.swift */; };
 		DEEEACCF253DFE290072D078 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEACCE253DFE290072D078 /* ContentView.swift */; };
 		DEEEACD1253DFE2A0072D078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEEACD0253DFE2A0072D078 /* Assets.xcassets */; };
 		DEEEACD4253DFE2A0072D078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEEACD3253DFE2A0072D078 /* Preview Assets.xcassets */; };
 		DEEEACDF253DFE2B0072D078 /* swift_vapor_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEACDE253DFE2B0072D078 /* swift_vapor_clientTests.swift */; };
 		DEEEACEA253DFE2B0072D078 /* swift_vapor_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEACE9253DFE2B0072D078 /* swift_vapor_clientUITests.swift */; };
+		DEEEACFC253DFE8E0072D078 /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEACFB253DFE8E0072D078 /* Me.swift */; };
+		DEEEAD01253DFEB00072D078 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAD00253DFEB00072D078 /* Todo.swift */; };
+		DEEEAD07253DFED10072D078 /* DisplayUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAD06253DFED10072D078 /* DisplayUserView.swift */; };
+		DEEEAD0F253DFEE20072D078 /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAD0E253DFEE20072D078 /* NewTodoView.swift */; };
+		DEEEAD14253DFEF70072D078 /* ListTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAD13253DFEF70072D078 /* ListTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEEA34632541ECC4000CC127 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEEEACC9253DFE290072D078 /* swift-vapor-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-vapor-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEEACCC253DFE290072D078 /* swift_vapor_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_vapor_clientApp.swift; sourceTree = "<group>"; };
 		DEEEACCE253DFE290072D078 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,11 @@
 		DEEEACE5253DFE2B0072D078 /* swift-vapor-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-vapor-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEEACE9253DFE2B0072D078 /* swift_vapor_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_vapor_clientUITests.swift; sourceTree = "<group>"; };
 		DEEEACEB253DFE2B0072D078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEEACFB253DFE8E0072D078 /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
+		DEEEAD00253DFEB00072D078 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		DEEEAD06253DFED10072D078 /* DisplayUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayUserView.swift; sourceTree = "<group>"; };
+		DEEEAD0E253DFEE20072D078 /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
+		DEEEAD13253DFEF70072D078 /* ListTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 		DEEEACC0253DFE290072D078 = {
 			isa = PBXGroup;
 			children = (
+				DEEA34632541ECC4000CC127 /* README.md */,
 				DEEEACCB253DFE290072D078 /* swift-vapor-client */,
 				DEEEACDD253DFE2B0072D078 /* swift-vapor-clientTests */,
 				DEEEACE8253DFE2B0072D078 /* swift-vapor-clientUITests */,
@@ -95,6 +108,8 @@
 		DEEEACCB253DFE290072D078 /* swift-vapor-client */ = {
 			isa = PBXGroup;
 			children = (
+				DEEEAD05253DFEC10072D078 /* Views */,
+				DEEEACFA253DFE7F0072D078 /* Models */,
 				DEEEACCC253DFE290072D078 /* swift_vapor_clientApp.swift */,
 				DEEEACCE253DFE290072D078 /* ContentView.swift */,
 				DEEEACD0253DFE2A0072D078 /* Assets.xcassets */,
@@ -128,6 +143,25 @@
 				DEEEACEB253DFE2B0072D078 /* Info.plist */,
 			);
 			path = "swift-vapor-clientUITests";
+			sourceTree = "<group>";
+		};
+		DEEEACFA253DFE7F0072D078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEEEACFB253DFE8E0072D078 /* Me.swift */,
+				DEEEAD00253DFEB00072D078 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEEEAD05253DFEC10072D078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEEEAD06253DFED10072D078 /* DisplayUserView.swift */,
+				DEEEAD0E253DFEE20072D078 /* NewTodoView.swift */,
+				DEEEAD13253DFEF70072D078 /* ListTodoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEA34642541ECC4000CC127 /* README.md in Resources */,
 				DEEEACD4253DFE2A0072D078 /* Preview Assets.xcassets in Resources */,
 				DEEEACD1253DFE2A0072D078 /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEEACCF253DFE290072D078 /* ContentView.swift in Sources */,
+				DEEEAD14253DFEF70072D078 /* ListTodoView.swift in Sources */,
 				DEEEACCD253DFE290072D078 /* swift_vapor_clientApp.swift in Sources */,
+				DEEEACFC253DFE8E0072D078 /* Me.swift in Sources */,
+				DEEEAD0F253DFEE20072D078 /* NewTodoView.swift in Sources */,
+				DEEEAD07253DFED10072D078 /* DisplayUserView.swift in Sources */,
+				DEEEAD01253DFEB00072D078 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

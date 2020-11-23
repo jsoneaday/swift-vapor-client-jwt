@@ -14,5 +14,6 @@ struct Me: Decodable {
 
 struct UserLogin: Encodable {
     var userName: String
-    var password: String    
+    var password: String
+    
 }
